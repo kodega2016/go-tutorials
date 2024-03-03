@@ -20,4 +20,11 @@ func main() {
 		company_address string = "Sanepa"
 	)
 	fmt.Println("company name:", company_name, "company size:", company_size, "company address:", company_address)
+
+	var book_name string
+	var total_marks int
+	var is_active bool
+	var score float32
+
+	fmt.Println("book_name:", book_name, "total marks:", total_marks, "is_active:", is_active, "score:", score)
 }

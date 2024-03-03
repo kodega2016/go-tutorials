@@ -56,6 +56,52 @@ var (
 )
 ```
 
+## Conditionals
+
+We can use if,else,if else for conditionals statement like other programming languages.
+
+### If statement
+
+```go
+age:=10
+if age<18{
+  fmt.Println("you are not allowed to visit this site.")
+}
+```
+
+### IF-Else statement
+
+```go
+age:=18
+if age<10{
+  fmt.Println("you are child")
+}else if(age>10 && age<20){
+  fmt.Println("you are a teenager")
+}else{
+  fmt.Println("you are a mature")
+}
+```
+
+## Switch case
+
+we can switch case for multiple conditionals checks.
+
+```go
+role:="developer"
+switch(role){
+case "admin":
+  fmt.Println("you are an admin")
+  break;
+case "developer":
+  fmt.Println("you are a developer")
+  break;
+default:
+  fmt.Println("you are our guest")
+}
+```
+
+In switch statement,there is a way t
+
 ```
 
 ```

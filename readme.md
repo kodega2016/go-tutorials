@@ -36,7 +36,7 @@ var age=12
 
 here if we try to assign the string value to the age it will through the error because its type is `int` implicitly declared while the varible is assigned.
 
-#### Short variable
+### Short variable
 
 we can declare variable with the short hand operators as well.so the basic sytax is as follows.
 

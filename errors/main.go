@@ -13,6 +13,14 @@ func main() {
 		os.Exit(1)
 	}
 	fmt.Println("result:", res)
+
+
+	result,error:=divide(10,0)
+	if error!=nil{
+		fmt.Println("error occurred:", error)
+		os.Exit(1)
+	}
+	fmt.Println("result:",result)
 }
 
 func divide(x, y float32) (float32, error) {
